@@ -29,6 +29,16 @@
   padding: 20px;
 }
 
+.organization {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 350;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: ##393a3d;  
+
+}
+
 .message-title {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;

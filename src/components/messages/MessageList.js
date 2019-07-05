@@ -9,7 +9,7 @@ export default class MessageList extends Component {
       {/*
       <div className='message-line'></div> */}
       <div className='message-padding'>
-        <div className='message-title'>Projeto Rua</div>
+        <div className='organization'>Projeto Rua</div>
         <div className='message-title'>{ this.props.donation.username }</div>
         <div className='message-body'>{ this.props.donation.message }</div>
         <div className='message-value'>{ web3.utils.fromWei(this.props.donation.value, 'ether') } ETH</div>

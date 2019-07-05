@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import DonateForm from '../form/DonateForm';
 import DonateForm2 from '../form/DonateForm2';
 import DonateForm3 from '../form/DonateForm3';
-import iphoneX from '../../images/Asset2@2x.png';
 import charity, { charity2, charity3 } from '../../ethereum/factory';
 import web3 from '../../ethereum/web3';
 import './Banner.css';
