@@ -14,10 +14,6 @@
   font-size: 20px;
   font-weight: 600;
   color: #06d4d0;
-  /* letter-spacing: 4px; */
-  
-  /* text-shadow: 0 0 10px #06d4d0; */
-  /* box-shadow: 0 0 10px #757575; */
 }
 
 .ring:before{
@@ -45,17 +41,6 @@ span {
   transform-origin: left;
   animation: animate 2s linear infinite;
 }
-/* span:before {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #06d4d0;
-  top: -8px;
-  right: -8px;
-  box-shadow: 0 0 10px #06d4d0;
-} */
 
 @keyframes animateCircle {
   0%

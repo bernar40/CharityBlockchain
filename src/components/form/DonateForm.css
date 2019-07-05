@@ -12,11 +12,9 @@
 @keyframes fade-in-right {
   from {
     opacity: 0;
-    /* transform: translateY(-15px); */
   }
   to {
     opacity: 1;
-    /* transform: translateY(0); */
   }
 }
 
@@ -60,8 +58,6 @@
 
 .form-background {
   background: white;
-  /* margin-top: 110px;
-  margin-bottom: 110px; */
   height: 675px;
   width: 450px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
@@ -101,7 +97,6 @@
   outline: none;
   border: none;
   border-bottom: 2px solid rgb(224, 224, 224);
-  /* border-radius: 5px; */
   padding:10px;
   padding-left: 20px;
 }
@@ -204,8 +199,6 @@ input[type='text'] {
 
 .form-background {
   background: white;
-  /* margin-top: 110px;
-  margin-bottom: 110px; */
   height: 100%;
   width: 100%;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
@@ -223,8 +216,6 @@ input[type='text'] {
 
   .form-background {
     background: white;
-    /* margin-top: 110px;
-    margin-bottom: 110px; */
     height: 100%;
     width: 100%;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
@@ -251,7 +242,6 @@ input[type='text'] {
     outline: none;
     border: none;
     border-bottom: 2px solid rgb(224, 224, 224);
-    /* border-radius: 5px; */
     padding:10px;
     padding-left: 20px;
   }

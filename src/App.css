@@ -94,6 +94,7 @@
   padding-bottom: 30px;
   font-weight: 700;
   color: #75489f;  
+  margin-top: 150px;
 }
 
 .message-flex {
@@ -103,4 +104,29 @@
 	justify-content: flex-start;
 	align-items: center;
   align-content: center;
+}
+
+.sub-header__caption{
+  font-weight: 600;
+  color: rgb(1, 1, 1, 0.50);
+  position: relative;
+  margin-top: -300px;
+  margin-left: 55px;
+  width: 25%;
+}
+.sub-header__caption2{
+  font-weight: 600;
+  color: rgb(1, 1, 1, 0.50);
+  position: relative;
+  margin-left: 455px;
+  margin-top: -165px;
+  width: 25%;
+}
+.sub-header__caption3{
+  font-weight: 600;
+  color: rgb(1, 1, 1, 0.50);
+  position: relative;
+  margin-left: 855px;
+  margin-top: -175px;
+  width: 30%;
 }

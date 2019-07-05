@@ -3,34 +3,37 @@ import NavigationBar from './components/navigation/NavigationBar';
 import Banner from './components/banner/Banner';
 import Layout from './components/layout/Layout';
 import MessageListContainer from './components/messages/MessageListContainer';
+import MessageListContainer2 from './components/messages/MessageListContainer2';
+import MessageListContainer3 from './components/messages/MessageListContainer3';
 import SubHeader from './components/subHeader/SubHeader';
 import './App.css';
 
-const book = require('./images/book-iso.png');
-const park = require('./images/tree-iso.png');
-const cannedGood = require('./images/can-iso.png');
+const event1 = require('./images/projetoruas.png');
+const event2 = require('./images/pascoa.png');
+const event3 = require('./images/garra.png');
 
 class App extends Component {
 	render() {
 		return (
 			<Layout>
 				<NavigationBar />
-				{/* <svg id="waves" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 222.73">
-    <title>waves</title>
-    <path className="cls-1" d="M0,109S315,213,553,213,1191-21,1600,48V258H0Z" transform="translate(0 -35.27)" />
-  </svg> */}
 				<Banner />
 				<div className="main">
 					<div className="squeeze">
 						<div className="sub-container-flex">
-							<SubHeader padding="extra-padding" title="Food" subContent={cannedGood} animation="reg" />
-							<SubHeader title="Education" subContent={book} animation="medium" />
-							<SubHeader title="Recreation" subContent={park} animation="slow" />
+							<SubHeader padding="extra-padding" title="Fundo para Abrigos Para Moradores de Rua - ONG Projeto Ruas" subContent={event1}/>
+							<SubHeader title="Festa de Páscoa - ONG Sonhar Acordado" subContent={event2}/>
+							<SubHeader title="Doação pra animais de rua - ONG Garra" subContent={event3}/>
 						</div>
-						<div className="message-section-title">Donors</div>
+						<div className='sub-header__caption'>O Projeto RUAS trabalha para promover o bem estar e a cidadania da população em situação de rua com informação e estímulo por meio dos residentes dos bairros ao seu entorno.</div>
+						<div className='sub-header__caption2'>A ONG Sonhar Acordado é uma organização internacional, sem fins lucrativos, que atua junto a instituições, orfanatos, casas de apoio e hospitais e que busca transformar a vida de crianças carentes por meio de uma relação de amizade com o jovem voluntário.</div>
+						<div className='sub-header__caption3'>O G.A.R.R.A. já resgatou e reabilitou milhares de animais vítimas de maus tratos. Somos o único grupo do RJ que resgata animais de grandes portes e atualmente temos 20 cavalos, 120 cães e 70 gatos sob nossos cuidados. Ainda não somos uma ONG, somos apenas um pequeno grupo de amigas e as dificuldades que encontramos para manter o G.A.R.R.A. vivo são muitas!
+Ajude-nos a continuar salvando vidas! </div>
+						<div className="message-section-title">Doadores</div>
 						<div className="message-flex">
 							<MessageListContainer />
-							{/* <div className='round-circle'></div> */}
+							<MessageListContainer2 />
+							<MessageListContainer3 />
 						</div>
 					</div>
 				</div>

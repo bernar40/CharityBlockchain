@@ -33,7 +33,7 @@ export default class DonateForm extends Component {
       loading: true,
       errorMessage: ''
     });
-    await charity.methods.contributeMessage( description, name, web3.utils.toWei( value, 'ether' ) )
+    await charity2.methods.contributeMessage( description, name, web3.utils.toWei( value, 'ether' ) )
     .send({ 
       from: accounts[0],
       value: web3.utils.toWei(this.state.value, 'ether')
