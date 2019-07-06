@@ -19,4 +19,5 @@ $ npm start
 ```bash
 npm working version: 6.4.1
 solc working version: Version: 0.4.26
+node working version: v8.16.0
 ```
