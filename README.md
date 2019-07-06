@@ -15,3 +15,8 @@ $ npm install
 ```bash
 $ npm start
 ```
+
+```bash
+npm working version: 6.4.1
+solc working version: Version: 0.4.26
+```
