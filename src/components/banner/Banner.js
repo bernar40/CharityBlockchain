@@ -69,11 +69,11 @@ export default class Banner extends Component {
         <div className='banner-flex'>
           <div className='column__one-third'>
             <div className='banner-header'>Ajude projetos de caridade!</div>
-            <div className='banner-caption__description-amount'>Até o momento um total de { this.state.charityCount } pessoa(s) já ajudaram o Projeto Rua, doando um total de
+            <div className='banner-caption__description-amount'>Até o momento um total de { this.state.donatorsCount } pessoa(s) já ajudaram o Projeto Rua, doando um total de
               <span> { web3.utils.fromWei(this.state.balance, 'ether') } ETH</span>!<br /><br />
-              Até o momento um total de { this.state.charityCount2 } pessoa(s) já ajudaram a ONG Sonhar Acordado, doando um total de
+              Até o momento um total de { this.state.donatorsCount2 } pessoa(s) já ajudaram a ONG Sonhar Acordado, doando um total de
               <span> { this.state.balance2 } ETH</span>!<br /><br />
-              Até o momento um total de { this.state.charityCount3 } pessoa(s) já ajudaram o G.A.R.R.A, doando um total de
+              Até o momento um total de { this.state.donatorsCount3 } pessoa(s) já ajudaram o G.A.R.R.A, doando um total de
               <span> { this.state.balance3 } ETH</span>!</div>
             <button className='donate-button__banner' onClick= { () => this.clickOpenModal() } >Contribua
             </button>
@@ -81,8 +81,8 @@ export default class Banner extends Component {
             </button>
             <button className='donate-button__banner3' onClick= { () => this.clickOpenModal3() } >Contribua
             </button>
-            <button className='info-button__banner' onClick={ ()=> window.scroll(0, 930) } >Projetos</button>
-            <button className='donners-button__banner' onClick={ ()=> window.scroll(0, 1800) } >Doadores</button>
+            <button className='info-button__banner' onClick={ ()=> window.scroll(0, 800) } >Projetos</button>
+            <button className='donners-button__banner' onClick={ ()=> window.scroll(0, 1700) } >Doadores</button>
           </div>
         </div>
       </div>
